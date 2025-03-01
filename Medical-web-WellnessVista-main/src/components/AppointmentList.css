@@ -1,0 +1,63 @@
+/* Main container styling */
+.appointment-list-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  .appointment-list-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Table styles */
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .appointment-table th,
+  .appointment-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .appointment-table thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .appointment-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* No appointments row */
+  .no-appointments-row {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 768px) {
+    .appointment-list-container {
+      width: 95%;
+    }
+  
+    .appointment-table th,
+    .appointment-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
